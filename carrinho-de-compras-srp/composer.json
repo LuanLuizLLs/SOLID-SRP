@@ -1,0 +1,16 @@
+{
+    "name": "luanl/carrinho-de-compras",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LuanLuizLLs",
+            "email": "luanluiz.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
