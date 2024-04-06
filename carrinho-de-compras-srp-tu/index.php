@@ -6,7 +6,7 @@ use App\Item;
 use App\Pedido;
 use App\Email;
 
-echo "<h2>Princípio da Responsabilidade Única</h2>";
+echo "<h2>Com o Princípio da Responsabilidade Única + Testes unitários</h2>";
 
 echo "<h3>Carrinho vazio</h3>";
 

@@ -4,7 +4,7 @@ require __DIR__."/vendor/autoload.php";
 
 use App\CarrinhoCompra;
 
-echo "<h2>Projeto Inicial</h2>";
+echo "<h2>Sem o Princípio da Responsabilidade Única</h2>";
 
 echo "<h3>Carrinho vazio</h3>"; 
 
