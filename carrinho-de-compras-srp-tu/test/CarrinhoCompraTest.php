@@ -1,7 +1,7 @@
 <?php
 
-use App\Item;
-use App\CarrinhoCompra;
+use TuSRP\Item;
+use TuSRP\CarrinhoCompra;
 use PHPUnit\Framework\TestCase;
 
 class CarrinhoCompraTest extends TestCase {

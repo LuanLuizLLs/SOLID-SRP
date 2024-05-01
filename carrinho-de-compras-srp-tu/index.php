@@ -2,9 +2,9 @@
 
 require __DIR__."/vendor/autoload.php";
 
-use App\Item;
-use App\Pedido;
-use App\Email;
+use TuSRP\Item;
+use TuSRP\Pedido;
+use TuSRP\Email;
 
 echo "<h2>Com o Princípio da Responsabilidade Única + Testes unitários</h2>";
 

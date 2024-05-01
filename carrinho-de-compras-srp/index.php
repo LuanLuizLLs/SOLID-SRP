@@ -2,9 +2,9 @@
 
 require __DIR__."/vendor/autoload.php";
 
-use App\Item;
-use App\Pedido;
-use App\Email;
+use YesSRP\Item;
+use YesSRP\Pedido;
+use YesSRP\Email;
 
 echo "<h2>Com o Princípio da Responsabilidade Única</h2>";
 

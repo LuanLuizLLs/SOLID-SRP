@@ -1,6 +1,6 @@
 <?php
 
-use App\Item;
+use TuSRP\Item;
 use PHPUnit\Framework\TestCase;
 
 class ItemTest extends TestCase {

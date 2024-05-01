@@ -2,7 +2,7 @@
 
 require __DIR__."/vendor/autoload.php";
 
-use App\CarrinhoCompra;
+use NoSRP\CarrinhoCompra;
 
 echo "<h2>Sem o Princípio da Responsabilidade Única</h2>";
 

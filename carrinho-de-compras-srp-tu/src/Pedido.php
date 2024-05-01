@@ -1,6 +1,6 @@
 <?php 
 
-namespace App;
+namespace TuSRP;
 
 class Pedido {
 

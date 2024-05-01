@@ -1,8 +1,8 @@
 <?php
 
-use App\Item;
-use App\Pedido;
-use App\CarrinhoCompra;
+use TuSRP\Item;
+use TuSRP\Pedido;
+use TuSRP\CarrinhoCompra;
 use PHPUnit\Framework\TestCase;
 
 class PedidoTest extends TestCase {
