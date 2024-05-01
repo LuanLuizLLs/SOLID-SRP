@@ -25,22 +25,22 @@ foreach ($itens as $key => $item) {
   $valorTotal += $item->getValor();
 }
 
-echo "<p>Valor total: $valorTotal</p>";
+echo "<p><b>Valor total:</b> $valorTotal</p>";
 
 $carrinhoPreenchido = $pedido->getCarrinho()->validarCarrinho();
 
-echo "<p>Carrinho preenchido: $resultado[$carrinhoPreenchido]</p>";
+echo "<p><b>Carrinho preenchido:</b> $resultado[$carrinhoPreenchido]</p>";
 
 $status = $pedido->getStatus();
 
-echo "<p>Status do pedido: $status</p>";
+echo "<p><b>Status do pedido:</b> $status</p>";
 
 echo "<h5>Pedido enviado para confirmação</h5>";
 
 $pedidoConfirmado = $pedido->confirmarPedido();
 $status = $pedido->getStatus();
 
-echo "<p>Status do pedido: $status</p>";
+echo "<p><b>Status do pedido:</b> $status</p>";
 
 echo "<hr />";
 
@@ -75,15 +75,15 @@ foreach ($itens as $key => $item) {
   $valorTotal += $item->getValor();
 }
 
-echo "<p>Valor total: $valorTotal</p>";
+echo "<p><b>Valor total:</b> $valorTotal</p>";
 
 $carrinhoPreenchido = $pedido->getCarrinho()->validarCarrinho();
 
-echo "<p>Carrinho preenchido: $resultado[$carrinhoPreenchido]</p>";
+echo "<p><b>Carrinho preenchido:</b> $resultado[$carrinhoPreenchido]</p>";
 
 $status = $pedido->getStatus();
 
-echo "<p>Status do pedido: $status</p>";
+echo "<p><b>Status do pedido:</b> $status</p>";
 
 echo "<h5>Pedido enviado para confirmação</h5>";
 
@@ -95,4 +95,4 @@ if ($status === 'confirmado') {
   $email->dispararEmail();
 }
 
-echo "<p>Status do pedido: $status</p>";
+echo "<p><b>Status do pedido:</b> $status</p>";

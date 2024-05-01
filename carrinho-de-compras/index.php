@@ -17,16 +17,16 @@ echo "<pre>";
 print_r($itens);
 echo "</pre>";
 
-echo "<p>Valor total: $valorTotal</p>";
+echo "<p><b>Valor total:</b> $valorTotal</p>";
 
-echo "<p>Status: $status</p>";
+echo "<p><b>Status:</b> $status</p>";
 
 $pedidoConfirmado = $carrinho->confirmarPedido();
 $status = $carrinho->exibirStatus();
 
 echo $pedidoConfirmado ? "<h5>Pedido finalizado!</h5>" : "<h5>O carrinho está vazio!</h5>";
 
-echo "<p>Status: $status</p>";
+echo "<p><b>Status:</b> $status</p>";
 
 echo "<hr />";
 
@@ -44,13 +44,13 @@ echo "<pre>";
 print_r($itens);
 echo "</pre>";
 
-echo "<p>Valor total: $valorTotal</p>";
+echo "<p><b>Valor total:</b> $valorTotal</p>";
 
-echo "<p>Status: $status</p>";
+echo "<p><b>Status:</b> $status</p>";
 
 $pedidoConfirmado = $carrinho->confirmarPedido();
 $status = $carrinho->exibirStatus();
 
 echo $pedidoConfirmado ? "<h5>Pedido finalizado!</h5>" : "<h5>O carrinho está vazio!</h5>";
 
-echo "<p>Status: $status</p>";
+echo "<p><b>Status:</b> $status</p>";
